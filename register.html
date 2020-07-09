@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register Form</title>
+        <h1 style="color:red">Registration Form</h1>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>You Need To Register Your Data</p>
+        <form name="Register" method="post" action="RegDetails">
+            <h3>Username:</h3>
+           <input type="text" name="newname" required/><br/>
+           <h3>Password:</h3>
+           <input type="password" name="newpassword" required/><br/>
+           <h3>Gender:<h3/>
+           <input type="radio" name="gender" value="Male" required>Male</input><br/>
+           <input type="radio" name="gender" vaue="Female" required>Female</input><br/>
+           <h3>Phone Number:<h3/>
+           <input type="text" name="Phone" required/><br/>
+           <h3>State:</h3>
+           <input type="text" name="state" required/><br/>
+           <h3>City:</h3>
+           <input type="text" name="city" required/><br/>
+           <input type="submit" name="Submit"/><br/>
+        </form>
+    </body>
+</html>
